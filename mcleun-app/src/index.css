@@ -15,16 +15,49 @@ html {
 }
 
 
+/* .header-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 1rem;
+  max-width: 100vw;
+  margin: 0 auto;
+  background-color: #11253a;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 10px 0;
+  background-color: #11253a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+} */
+
 .header-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   padding: 1rem;
-  /* max-width: 1200px; */
   max-width: 100vw;
+  height: fit-content;
   margin: 0 auto;
   background-color: #11253a;
 }
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 0px 0;
+  background-color: #11253a;
+  margin-top: 0;
+}
+
+
 
 .logo-section,
 .contact-section,
@@ -69,17 +102,6 @@ hr {
   margin-top: 0;
 }
 
-.navigate {
-  display: flex;
-  justify-content: center;
-  gap: 80px;
-  padding: 10px 0;
-  background-color: #11253a;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-
-}
 
 
 .nav-link {
@@ -91,8 +113,6 @@ hr {
 .nav-link:hover {
   color: #007bff;
 }
-
-/* Existing styles remain unchanged */
 
 .hero-section {
   position: relative;
@@ -141,7 +161,7 @@ hr {
   background-color: #0056b3;
 }
 
-/* New styles for smaller screens */
+
 @media (max-width: 480px) {
   .hero-section {
     position: static;
