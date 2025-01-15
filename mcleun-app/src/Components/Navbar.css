@@ -10,8 +10,6 @@
     top: 0;
     left: 0;
 
-
-
 }
 
 .menu-text {
@@ -22,10 +20,9 @@
 .menu-bars {
     margin-left: 2rem;
     font-size: 2rem;
-    background-color: none;
+    background: none;
     cursor: pointer;
-
-
+    z-index: 11;
 }
 
 .nav-menu {
@@ -38,13 +35,12 @@
     top: 0;
     left: -100%;
     transition: 850ms;
+    z-index: 9;
 }
 
 .nav-menu.active {
-
     left: 0;
     transition: 350ms;
-
 }
 
 .nav-text {
@@ -54,7 +50,6 @@
     padding: 8px 0px 8px 6px;
     list-style: none;
     height: 60px;
-
 }
 
 .nav-text a {
@@ -67,20 +62,17 @@
     align-items: center;
     padding: 0 16px;
     border-radius: 12px;
-
-
 }
 
 .nav-text a:hover {
     cursor: pointer;
     background-color: #176ac2;
-
-
 }
 
 .nav-menu-items {
     width: 100%;
-
+    padding: 0;
+    margin: 0;
 }
 
 .navbar-toggle {
@@ -90,8 +82,6 @@
     display: flex;
     justify-content: start;
     align-items: center;
-
-
 }
 
 span {
@@ -101,19 +91,21 @@ span {
 .logo-section {
     display: flex;
     align-items: center;
+    margin-right: 2rem;
+
 }
 
 .logo {
     width: 40px;
     height: 45px;
     display: block;
-
 }
 
 .company-name {
     color: #fff;
     font-size: 1.5rem;
     line-height: 1.2;
+    margin-left: 10px;
 
 }
 
