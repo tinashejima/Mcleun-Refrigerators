@@ -1,7 +1,7 @@
 [build]
   base = "mcleun-app" 
   command = "npm run build"
-  publish = "mcleun-app/dist" 
+  publish = "dist" 
 [build.environment]
   NODE_VERSION = "18.20.5"        
 
