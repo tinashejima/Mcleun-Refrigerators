@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+
+import React, { useState, useRef, useEffect } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import { Link } from 'react-router-dom';
@@ -9,6 +10,21 @@ import myImage from '../assets/IMG-20241009-WA0026.jpg';
 
 function Navbar() {
     const [sidebar, setSidebar] = useState(false);
+    const sidebarRef = useRef(null);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
+                setSidebar(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
 
     const showSidebar = () => setSidebar(!sidebar);
 
@@ -25,7 +41,7 @@ function Navbar() {
                         <h1 className="company-name">McLeun<br />Refrigeration</h1>
                     </div>
                 </div>
-                <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+                <nav ref={sidebarRef} className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                     <ul className='nav-menu-items' onClick={showSidebar}>
                         <li className='navbar-toggle'>
                             <Link to='#' className='menu-bars'>
