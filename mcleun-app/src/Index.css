@@ -1,5 +1,5 @@
 body {
-    background-image: url('./assets/360_F_783868564_fpTYDoqHHuGd0XiTywVSBcEP5hhnphbD.jpg');
+    background-image: url('./assets/pngtree-row-of-many-metal-fridges-stacked-on-top-of-each-other-picture-image_2484531.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -164,6 +164,10 @@ h2 {
     border-radius: 10px;
 }
 
+.about-image img:hover {
+    transform: translateY(-5px);
+}
+
 
 
 .services-container {
@@ -287,6 +291,85 @@ h2 {
     margin: 0;
 }
 
+
+
+/* contact css */
+
+.contact-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    color: #0056b3;
+    margin-bottom: 30px;
+}
+
+.contact-content {
+    max-width: 800px;
+    width: 100%;
+    background-color: #e0edf5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.emergency-contact {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #9eccfa;
+    border-radius: 10px;
+    border: 1px solid #ffeeba;
+}
+
+.emergency-text {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.phone-numbers {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.icon {
+    color: #0056b3;
+    font-size: 1.5rem;
+}
+
+
 /* screen responsive css */
 @media screen and (max-width: 768px) {
     h2 {
@@ -302,6 +385,8 @@ h2 {
 
     .overlay {
         padding: 10px;
+        width: 100%;
+        height: 50%;
 
     }
 
@@ -356,6 +441,20 @@ h2 {
     }
 
     .target-market-card-text {
+        font-size: 1rem;
+    }
+
+    /* contact page */
+
+    .contact-title {
+        font-size: 2rem;
+    }
+
+    .phone-numbers {
+        font-size: 1.2rem;
+    }
+
+    .contact-item {
         font-size: 1rem;
     }
 }
