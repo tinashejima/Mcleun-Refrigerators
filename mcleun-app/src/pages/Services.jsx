@@ -1,194 +1,30 @@
+import React from 'react';
 
 
 const Services = () => {
+    const servicesList = [
+        "Refrigeration system installation",
+        "Regular maintenance and inspections",
+        "Repair and troubleshooting",
+        "Energy efficiency upgrades and retrofits",
+        "24/7 emergency service",
+        "Refrigerant management and compliance",
+        "Temperature monitoring and control solutions",
+        "Customized preventative maintenance program"
+    ];
 
     return (
-
-        <>
-            <hr />
-            <div>
-                <h1>Services</h1>
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga fugit porro eum iste maxime error consectetur odio eos ipsam doloribus,
-                    odit non aperiam, explicabo quaerat nobis distinctio tempora? Id, consectetur iure.
-                    Accusamus esse delectus, unde ea similique, beatae tempore atque reiciendis,
-                    provident vero eum. Repellat porro voluptate, eligendi doloremque dignissimos,
-                    maxime reprehenderit illo accusamus commodi hic nisi sint delectus sed
-                    quibusdam vero rerum laboriosam perspiciatis adipisci soluta sequi ullam
-                    officiis veniam. Magnam quisquam necessitatibus quidem, iste voluptatum
-                    officiis aut ab maiores dicta blanditiis. Nihil saepe atque id reiciendis,
-                    vero assumenda omnis tenetur ratione deserunt pariatur hic nemo architecto!
-                    Velit, consequatur?
-                </div>
-                <br />
-
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga fugit porro eum iste maxime error consectetur odio eos ipsam doloribus,
-                    odit non aperiam, explicabo quaerat nobis distinctio tempora? Id, consectetur iure.
-                    Accusamus esse delectus, unde ea similique, beatae tempore atque reiciendis,
-                    provident vero eum. Repellat porro voluptate, eligendi doloremque dignissimos,
-                    maxime reprehenderit illo accusamus commodi hic nisi sint delectus sed
-                    quibusdam vero rerum laboriosam perspiciatis adipisci soluta sequi ullam
-                    officiis veniam. Magnam quisquam necessitatibus quidem, iste voluptatum
-                    officiis aut ab maiores dicta blanditiis. Nihil saepe atque id reiciendis,
-                    vero assumenda omnis tenetur ratione deserunt pariatur hic nemo architecto!
-                    Velit, consequatur?
-                </div>
-                <br />
-
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga fugit porro eum iste maxime error consectetur odio eos ipsam doloribus,
-                    odit non aperiam, explicabo quaerat nobis distinctio tempora? Id, consectetur iure.
-                    Accusamus esse delectus, unde ea similique, beatae tempore atque reiciendis,
-                    provident vero eum. Repellat porro voluptate, eligendi doloremque dignissimos,
-                    maxime reprehenderit illo accusamus commodi hic nisi sint delectus sed
-                    quibusdam vero rerum laboriosam perspiciatis adipisci soluta sequi ullam
-                    officiis veniam. Magnam quisquam necessitatibus quidem, iste voluptatum
-                    officiis aut ab maiores dicta blanditiis. Nihil saepe atque id reiciendis,
-                    vero assumenda omnis tenetur ratione deserunt pariatur hic nemo architecto!
-                    Velit, consequatur?
-                </div>
-                <br />
-
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga fugit porro eum iste maxime error consectetur odio eos ipsam doloribus,
-                    odit non aperiam, explicabo quaerat nobis distinctio tempora? Id, consectetur iure.
-                    Accusamus esse delectus, unde ea similique, beatae tempore atque reiciendis,
-                    provident vero eum. Repellat porro voluptate, eligendi doloremque dignissimos,
-                    maxime reprehenderit illo accusamus commodi hic nisi sint delectus sed
-                    quibusdam vero rerum laboriosam perspiciatis adipisci soluta sequi ullam
-                    officiis veniam. Magnam quisquam necessitatibus quidem, iste voluptatum
-                    officiis aut ab maiores dicta blanditiis. Nihil saepe atque id reiciendis,
-                    vero assumenda omnis tenetur ratione deserunt pariatur hic nemo architecto!
-                    Velit, consequatur?
-                </div>
-                <br />
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga fugit porro eum iste maxime error consectetur odio eos ipsam doloribus,
-                    odit non aperiam, explicabo quaerat nobis distinctio tempora? Id, consectetur iure.
-                    Accusamus esse delectus, unde ea similique, beatae tempore atque reiciendis,
-                    provident vero eum. Repellat porro voluptate, eligendi doloremque dignissimos,
-                    maxime reprehenderit illo accusamus commodi hic nisi sint delectus sed
-                    quibusdam vero rerum laboriosam perspiciatis adipisci soluta sequi ullam
-                    officiis veniam. Magnam quisquam necessitatibus quidem, iste voluptatum
-                    officiis aut ab maiores dicta blanditiis. Nihil saepe atque id reiciendis,
-                    vero assumenda omnis tenetur ratione deserunt pariatur hic nemo architecto!
-                    Velit, consequatur?
-                </div>
-                <br />
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga fugit porro eum iste maxime error consectetur odio eos ipsam doloribus,
-                    odit non aperiam, explicabo quaerat nobis distinctio tempora? Id, consectetur iure.
-                    Accusamus esse delectus, unde ea similique, beatae tempore atque reiciendis,
-                    provident vero eum. Repellat porro voluptate, eligendi doloremque dignissimos,
-                    maxime reprehenderit illo accusamus commodi hic nisi sint delectus sed
-                    quibusdam vero rerum laboriosam perspiciatis adipisci soluta sequi ullam
-                    officiis veniam. Magnam quisquam necessitatibus quidem, iste voluptatum
-                    officiis aut ab maiores dicta blanditiis. Nihil saepe atque id reiciendis,
-                    vero assumenda omnis tenetur ratione deserunt pariatur hic nemo architecto!
-                    Velit, consequatur?
-                </div>
-                <br />
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga fugit porro eum iste maxime error consectetur odio eos ipsam doloribus,
-                    odit non aperiam, explicabo quaerat nobis distinctio tempora? Id, consectetur iure.
-                    Accusamus esse delectus, unde ea similique, beatae tempore atque reiciendis,
-                    provident vero eum. Repellat porro voluptate, eligendi doloremque dignissimos,
-                    maxime reprehenderit illo accusamus commodi hic nisi sint delectus sed
-                    quibusdam vero rerum laboriosam perspiciatis adipisci soluta sequi ullam
-                    officiis veniam. Magnam quisquam necessitatibus quidem, iste voluptatum
-                    officiis aut ab maiores dicta blanditiis. Nihil saepe atque id reiciendis,
-                    vero assumenda omnis tenetur ratione deserunt pariatur hic nemo architecto!
-                    Velit, consequatur?
-                </div>
-                <br />
-
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga fugit porro eum iste maxime error consectetur odio eos ipsam doloribus,
-                    odit non aperiam, explicabo quaerat nobis distinctio tempora? Id, consectetur iure.
-                    Accusamus esse delectus, unde ea similique, beatae tempore atque reiciendis,
-                    provident vero eum. Repellat porro voluptate, eligendi doloremque dignissimos,
-                    maxime reprehenderit illo accusamus commodi hic nisi sint delectus sed
-                    quibusdam vero rerum laboriosam perspiciatis adipisci soluta sequi ullam
-                    officiis veniam. Magnam quisquam necessitatibus quidem, iste voluptatum
-                    officiis aut ab maiores dicta blanditiis. Nihil saepe atque id reiciendis,
-                    vero assumenda omnis tenetur ratione deserunt pariatur hic nemo architecto!
-                    Velit, consequatur?
-                </div>
-                <br />
-
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga fugit porro eum iste maxime error consectetur odio eos ipsam doloribus,
-                    odit non aperiam, explicabo quaerat nobis distinctio tempora? Id, consectetur iure.
-                    Accusamus esse delectus, unde ea similique, beatae tempore atque reiciendis,
-                    provident vero eum. Repellat porro voluptate, eligendi doloremque dignissimos,
-                    maxime reprehenderit illo accusamus commodi hic nisi sint delectus sed
-                    quibusdam vero rerum laboriosam perspiciatis adipisci soluta sequi ullam
-                    officiis veniam. Magnam quisquam necessitatibus quidem, iste voluptatum
-                    officiis aut ab maiores dicta blanditiis. Nihil saepe atque id reiciendis,
-                    vero assumenda omnis tenetur ratione deserunt pariatur hic nemo architecto!
-                    Velit, consequatur?
-                </div>
-                <br />
-
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga fugit porro eum iste maxime error consectetur odio eos ipsam doloribus,
-                    odit non aperiam, explicabo quaerat nobis distinctio tempora? Id, consectetur iure.
-                    Accusamus esse delectus, unde ea similique, beatae tempore atque reiciendis,
-                    provident vero eum. Repellat porro voluptate, eligendi doloremque dignissimos,
-                    maxime reprehenderit illo accusamus commodi hic nisi sint delectus sed
-                    quibusdam vero rerum laboriosam perspiciatis adipisci soluta sequi ullam
-                    officiis veniam. Magnam quisquam necessitatibus quidem, iste voluptatum
-                    officiis aut ab maiores dicta blanditiis. Nihil saepe atque id reiciendis,
-                    vero assumenda omnis tenetur ratione deserunt pariatur hic nemo architecto!
-                    Velit, consequatur?
-                </div>
-                <br />
-
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga fugit porro eum iste maxime error consectetur odio eos ipsam doloribus,
-                    odit non aperiam, explicabo quaerat nobis distinctio tempora? Id, consectetur iure.
-                    Accusamus esse delectus, unde ea similique, beatae tempore atque reiciendis,
-                    provident vero eum. Repellat porro voluptate, eligendi doloremque dignissimos,
-                    maxime reprehenderit illo accusamus commodi hic nisi sint delectus sed
-                    quibusdam vero rerum laboriosam perspiciatis adipisci soluta sequi ullam
-                    officiis veniam. Magnam quisquam necessitatibus quidem, iste voluptatum
-                    officiis aut ab maiores dicta blanditiis. Nihil saepe atque id reiciendis,
-                    vero assumenda omnis tenetur ratione deserunt pariatur hic nemo architecto!
-                    Velit, consequatur?
-                </div>
-                <br />
-
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga fugit porro eum iste maxime error consectetur odio eos ipsam doloribus,
-                    odit non aperiam, explicabo quaerat nobis distinctio tempora? Id, consectetur iure.
-                    Accusamus esse delectus, unde ea similique, beatae tempore atque reiciendis,
-                    provident vero eum. Repellat porro voluptate, eligendi doloremque dignissimos,
-                    maxime reprehenderit illo accusamus commodi hic nisi sint delectus sed
-                    quibusdam vero rerum laboriosam perspiciatis adipisci soluta sequi ullam
-                    officiis veniam. Magnam quisquam necessitatibus quidem, iste voluptatum
-                    officiis aut ab maiores dicta blanditiis. Nihil saepe atque id reiciendis,
-                    vero assumenda omnis tenetur ratione deserunt pariatur hic nemo architecto!
-                    Velit, consequatur?
-                </div>
-                <br />
-
-
-            </div>
-        </>
+        <div className="services-container">
+            <h1 className="services-title">Our Services</h1>
+            <ul className="services-list">
+                {servicesList.map((service, index) => (
+                    <li key={index} className="service-item">
+                        • {service}
+                    </li>
+                ))}
+            </ul>
+        </div>
     );
-
 }
-export default Services
+
+export default Services;

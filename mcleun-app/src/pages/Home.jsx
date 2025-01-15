@@ -1,18 +1,23 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+    const navigate = useNavigate();
+
+    const handleAboutClick = () => {
+        navigate('/about');
+    };
 
     return (
         <>
-            <hr />
-
             <div className="hero-section">
                 <div className="overlay">
                     <h2>Welcome to McLeun Refrigeration</h2>
-                    <p>Your trusted partner for all Heating & Air Conditioning Service,
-                        Repair and Installation.</p>
-                    <button className="abt-button">About Us</button>
+                    <p className="sub-heading">Your trusted partner for all Refrigeration Services,
+                        Repair and Installations.</p>
+                    <button className="abt-button" onClick={handleAboutClick}>
+                        About Us
+                    </button>
                 </div>
             </div>
         </>
@@ -20,6 +25,3 @@ const Home = () => {
 }
 
 export default Home;
-
-
-
