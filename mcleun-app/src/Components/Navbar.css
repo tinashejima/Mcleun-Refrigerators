@@ -23,6 +23,7 @@
     margin-left: 2rem;
     font-size: 2rem;
     background-color: none;
+    cursor: pointer;
 
 
 }
@@ -67,9 +68,11 @@
     padding: 0 16px;
     border-radius: 12px;
 
+
 }
 
 .nav-text a:hover {
+    cursor: pointer;
     background-color: #176ac2;
 
 
@@ -95,18 +98,6 @@ span {
     margin-left: 16px;
 }
 
-/* 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
-} */
-
-
-
-
-
 .logo-section {
     display: flex;
     align-items: center;
@@ -126,92 +117,6 @@ span {
 
 }
 
-/* @media screen and (max-width: 320px),
-screen and (max-width:480px),
-screen and (max-width:768px) {
-    .nav-menu {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 50%;
-        justify-content: center;
-        background-color: #0056b3;
-        display: none;
-
-    }
-
-    .nav-menu.active {
-        display: block;
-        height: fit-content;
-        width: 52%;
-        z-index: 1;
-
-    }
-
-    .nav-text {
-        height: 40px;
-        justify-content: center;
-        width: 53%;
-
-    }
-
-    .nav-menu-item {
-        flex-direction: column;
-        margin-top: 5px;
-        padding: 1px;
-
-    }
-
-    .nav-menu-item li {
-        padding: 15px 20px;
-        margin-top: 2px;
-
-    }
-
-    .Navbar {
-        justify-content: flex-end;
-    }
-
-    .navbar-toggle {
-        background-color: #0056b3;
-        width: 52%;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-
-    }
-
-    .menu-text {
-        display: none;
-    }
-
-    .menu-bars {
-        position: absolute;
-        top: 10px;
-        left: 20px;
-
-    }
-
-    .logo-section {
-        position: absolute;
-        top: 10px;
-        right: 20px;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .company-name {
-        display: block;
-        font-size: 14px;
-        color: #fff;
-        margin-left: 5px;
-    }
-
-    .logo {
-        width: 30px;
-        height: auto;
-    } */
-
 
 @media screen and (max-width: 320px),
 screen and (max-width:480px),
@@ -221,9 +126,8 @@ screen and (max-width:768px) {
         top: 10px;
         left: 20px;
         z-index: 2;
-        /* Ensure it's above other elements */
         cursor: pointer;
-        /* Ensure it looks clickable */
+
     }
 
     .nav-menu {
