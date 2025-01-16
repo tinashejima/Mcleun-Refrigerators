@@ -3,8 +3,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Mcleun-Refrigerators/mcleun-app/',
+  base: '/Mcleun-Refrigerators/mcleun-app/dist/',
   build: {
-    outDir: 'Mcleun-Refrigerators/mcleun-app',
+    outDir: 'dist',
+    assetsDir: 'assets',
   },
 });
