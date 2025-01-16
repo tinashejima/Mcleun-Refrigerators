@@ -461,28 +461,30 @@ screen and (max-width:768px) {
     }
 }
 
-@media (orientation: landscape) {
+@media screen and (orientation: landscape) {
     body {
         background-size: contain;
     }
 
+    .hero-section {
+        height: 80vh;
+    }
+
     .overlay {
         width: 80%;
-        height: 80%;
-        padding: 20px;
+        padding: 1rem;
     }
 
     h2 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .sub-heading {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .abt-button {
-        font-size: 1.2rem;
-        padding: 1rem 2rem;
+        font-size: 16px;
     }
 
     .about-content {
@@ -490,11 +492,11 @@ screen and (max-width:768px) {
     }
 
     .about-text {
-        padding: 40px;
+        padding: 20px;
     }
 
     .about-image {
-        padding: 40px;
+        padding: 20px;
     }
 
     .services-content {
@@ -502,43 +504,422 @@ screen and (max-width:768px) {
     }
 
     .services-text {
-        padding: 40px;
-    }
-
-    .services-text h1 {
-        font-size: 3rem;
-    }
-
-    .service-item {
-        font-size: 1.2rem;
-    }
-
-    .services-image {
-        order: 0;
         padding: 20px;
     }
 
-    .target-market-title {
-        font-size: 3rem;
+    .services-image {
+        order: 1;
     }
 
     .target-market-grid {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(3, 1fr);
     }
 
-    .target-market-card-text {
-        font-size: 1.2rem;
+    .contact-content {
+        max-width: 90%;
     }
 
-    .contact-title {
-        font-size: 3rem;
+    .emergency-contact {
+        padding: 15px;
     }
 
     .phone-numbers {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
+    }
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.logo {
+    width: 40px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 1000px;
+}
+
+.company-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fcf4f4;
+}
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    min-height: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.sub-heading {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.abt-button {
+    padding: 10px 20px;
+    border: none;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.abt-button:hover {
+    background-color: #1b3f66;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.about-text {
+    flex: 1;
+    padding: 40px;
+}
+
+.about-text h1 {
+    font-size: 2.5rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.back-button {
+    padding: 10px 20px;
+    border: none;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #004080;
+}
+
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-image img:hover {
+    transform: translateY(-5px);
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.services-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.services-text {
+    padding: 30px;
+}
+
+.services-text h1 {
+    font-size: 2.5rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.services-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-item {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.services-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.services-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.services-image img:hover {
+    transform: translateY(-5px);
+}
+
+.target-market-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.target-market-title {
+    font-size: 2.5rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.target-market-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.target-market-card {
+    background-color: #c6e0f1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.target-market-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.target-market-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.target-market-card-text {
+    font-size: 1.1rem;
+    color: #333;
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+}
+
+.contact-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    color: #0056b3;
+    margin-bottom: 30px;
+}
+
+.contact-content {
+    max-width: 800px;
+    width: 100%;
+    background-color: #e0edf5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.emergency-contact {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #9eccfa;
+    border-radius: 10px;
+    border: 1px solid #ffeeba;
+}
+
+.emergency-text {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.phone-numbers {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.icon {
+    color: #0056b3;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 320px),
+screen and (max-width: 480px),
+screen and (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+        margin: 0;
     }
 
-    .contact-item {
-        font-size: 1.2rem;
+    p {
+        font-size: 1rem;
+    }
+
+    .overlay {
+        padding: 10px;
+        width: 100%;
+        height: 50%;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text {
+        padding: 20px;
+    }
+
+    .about-image {
+        padding: 20px;
+    }
+
+    .services-content {
+        flex-direction: column;
+    }
+
+    .services-image {
+        order: -1;
+        padding: 0;
+    }
+
+    .services-text {
+        padding: 20px;
+    }
+
+    .services-text h1 {
+        font-size: 2rem;
+    }
+
+    .service-item {
+        font-size: 1rem;
+    }
+
+    .target-market-title {
+        font-size: 2rem;
+    }
+
+    .target-market-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .target-market-card-text {
+        font-size: 1rem;
+    }
+
+    .contact-title {
+        font-size: 1rem;
     }
 }
