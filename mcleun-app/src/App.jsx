@@ -12,7 +12,7 @@ function App() {
   return (
 
     <>
-      <Router basename="/Mcleun-Refrigerators">
+      <Router>
 
         {/* <Navbar /> */}
         <Routes>
