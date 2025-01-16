@@ -373,6 +373,150 @@ h2 {
     body {
         flex-direction: row;
     }
+
+
+    h2 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .overlay {
+        padding: 10px;
+        width: 100%;
+        height: 50%;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text {
+        padding: 20px;
+    }
+
+    .about-image {
+        padding: 20px;
+    }
+
+    .services-content {
+        flex-direction: column;
+    }
+
+    .services-image {
+        order: -1;
+        padding: 0;
+    }
+
+    .services-text {
+        padding: 20px;
+    }
+
+    .services-text h1 {
+        font-size: 2rem;
+    }
+
+    .service-item {
+        font-size: 1rem;
+    }
+
+    .target-market-title {
+        font-size: 2rem;
+    }
+
+    .target-market-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .target-market-card-text {
+        font-size: 1rem;
+    }
+
+    .contact-title {
+        font-size: 2rem;
+    }
+
+    .phone-numbers {
+        font-size: 1.2rem;
+    }
+
+    .contact-item {
+        font-size: 1rem;
+    }
+
+    @media (orientation: landscape) {
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        .overlay {
+            height: 100%;
+        }
+
+        .about-content {
+            flex-direction: row;
+        }
+
+        .about-text {
+            padding: 40px;
+        }
+
+        .about-image {
+            padding: 40px;
+        }
+
+        .services-content {
+            flex-direction: row;
+        }
+
+        .services-image {
+            order: 0;
+            padding: 20px;
+        }
+
+        .services-text {
+            padding: 40px;
+        }
+
+        .services-text h1 {
+            font-size: 2.5rem;
+        }
+
+        .service-item {
+            font-size: 1.2rem;
+        }
+
+        .target-market-title {
+            font-size: 2.5rem;
+        }
+
+        .target-market-grid {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        .target-market-card-text {
+            font-size: 1.2rem;
+        }
+
+        .contact-title {
+            font-size: 2.5rem;
+        }
+
+        .phone-numbers {
+            font-size: 1.5rem;
+        }
+
+        .contact-item {
+            font-size: 1.2rem;
+        }
+    }
 }
 
 /* screen responsive css */
