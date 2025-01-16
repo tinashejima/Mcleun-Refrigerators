@@ -370,7 +370,7 @@ h2 {
 }
 
 @media (orientation: landscape) {
-    .container {
+    body {
         flex-direction: row;
     }
 }
