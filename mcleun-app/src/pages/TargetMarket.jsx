@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import supermarketImage from "../assets/premium_photo-1664305032567-2c460e29dec1.jpeg";
 import restaurantImage from "../assets/Food_Service.jpg";
 import industrialImage from "../assets/istockphoto-1320950393-612x612.jpg";
-import coldStorageImage from "../assets/istockphoto-1320950393-612x612.jpg";
+import coldStorageImage from "../assets/istockphoto-1301368439-612x612.jpg";
 import healthcareImage from "../assets/close-up-pharmaceutical-industry_1028938-193963.avif";
 import foodProcessingImage from "../assets/istockphoto-1346535903-612x612.jpg";
 import hotelImage from "../assets/hwange-safari-lodge.jpg";
